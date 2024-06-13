@@ -24,62 +24,8 @@
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body class="black-bg">
-    <!-- ? Preloader Start -->
-    <div id="preloader-active">
-        <div class="preloader d-flex align-items-center justify-content-center">
-            <div class="preloader-inner position-relative">
-                <div class="preloader-circle"></div>
-                <div class="preloader-img pere-text">
-                    <img src="img/TT.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Preloader Start -->
-    <header>
-        <!-- Header Start -->
-        <div class="header-area header-transparent">
-            <div class="main-header header-sticky">
-                <div class="container-fluid">
-                    <div class="menu-wrapper d-flex align-items-center justify-content-between">
-                        <!-- Logo -->
-                        <div class="logo">
-                            <a href="index.html"><img src="img/TT.png" alt=""></a>
-                        </div>
-                        <!-- Main-menu -->
-                        <div class="main-menu f-right d-none d-lg-block">
-                            <nav>
-                                <ul id="navigation">
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="courses.html">Courses</a></li>
-                                    <li><a href="pricing.html">Pricing</a></li>
-                                    <li><a href="gallery.html">Gallery</a></li>
-                                    <li><a href="blog.html">Blog</a>
-                                        <ul class="submenu">
-                                            <li><a href="blog.html">Blog</a></li>
-                                            <li><a href="blog_details.html">Blog Details</a></li>
-                                            <li><a href="elements.html">Elements</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                </ul>
-                            </nav>
-                        </div>          
-                        <!-- Header-btn -->
-                        <div class="header-btns d-none d-lg-block f-right">
-                           <a href="admin-login.php" class="btn">Admin</a>
-                       </div>
-                       <!-- Mobile Menu -->
-                       <div class="col-12">
-                        <div class="mobile_menu d-block d-lg-none"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Header End -->
+<?php include ('componentes/header.php'); ?>
+
 </header>
 <main>
     <!--? Hero Start -->
@@ -89,7 +35,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="hero-cap hero-cap2 pt-70">
-                            <h2>Courses</h2>
+                            <h2>About Me</h2>
                         </div>
                     </div>
                 </div>
@@ -98,18 +44,11 @@
     </div>
     <!-- Hero End -->
     <!--? Team -->
-    <section class="team-area fix section-padding30">
+    <section class="team-area pt-80">
         <div class="container">
             <div class="row">
-                <div class="col-xl-12">
-                    <div class="section-tittle text-center mb-55">
-                        <h2>What I Offer</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
                 <div class="col-lg-4 col-md-6">
-                    <div class="single-cat text-center mb-30">
+                    <div class="single-cat text-center mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s" >
                         <div class="cat-icon">
                             <img src="assets/img/gallery/team1.png" alt="">
                         </div>
@@ -120,7 +59,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="single-cat text-center mb-30">
+                    <div class="single-cat text-center mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
                         <div class="cat-icon">
                             <img src="assets/img/gallery/team2.png" alt="">
                         </div>
@@ -131,7 +70,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="single-cat text-center mb-30">
+                    <div class="single-cat text-center mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
                         <div class="cat-icon">
                             <img src="assets/img/gallery/team3.png" alt="">
                         </div>
@@ -145,34 +84,44 @@
         </div>
     </section>
     <!-- Services End -->
-    <!-- Traning categories Start -->
-    <section class="traning-categories black-bg">
-        <div class="container-fluid">
+    <!--? About Area-2 Start -->
+    <?php include ('componentes/about.php'); ?>
+
+    <!-- About Area End -->
+    <!--? Blog Area Start -->
+    <section class="home-blog-area pt-10 pb-50">
+        <div class="container">
+            <!-- Section Tittle -->
+            <div class="row justify-content-center">
+                <div class="col-lg-7 col-md-9 col-sm-10">
+                    <div class="section-tittle text-center mb-100 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                        <h2>From Blog</h2>
+                    </div>
+                </div>
+            </div>
             <div class="row">
-                <div class="col-xl-6 col-lg-6">
-                    <div class="single-topic text-center mb-30">
-                        <div class="topic-img">
-                            <img src="assets/img/gallery/cat1.png" alt="">
-                            <div class="topic-content-box">
-                                <div class="topic-content">
-                                    <h3>Personal traning</h3>
-                                    <p>You’ll look at graphs and charts in Task One, how to approach the task and <br> the language needed for a successful answer.</p>
-                                    <a href="courses.html" class="border-btn">View Courses</a>
-                                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6">
+                    <div class="home-blog-single mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                        <div class="blog-img-cap">
+                            <div class="blog-img">
+                                <img src="assets/img/gallery/blog1.png" alt="">
+                            </div>
+                            <div class="blog-cap">
+                                <span>Gym & Fitness</span>
+                                <h3><a href="blog_details.html">Your Antibiotic One Day To 10 Day Options</a></h3>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6">
-                    <div class="single-topic text-center mb-30">
-                        <div class="topic-img">
-                            <img src="assets/img/gallery/cat2.png" alt="">
-                            <div class="topic-content-box">
-                                <div class="topic-content">
-                                    <h3>Group traning</h3>
-                                    <p>You’ll look at graphs and charts in Task One, how to approach the task and <br> the language needed for a successful answer.</p>
-                                    <a href="courses.html" class="btn">View Courses</a>
-                                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6">
+                    <div class="home-blog-single mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="blog-img-cap">
+                            <div class="blog-img">
+                                <img src="assets/img/gallery/blog2.png" alt="">
+                            </div>
+                            <div class="blog-cap">
+                                <span>Gym & Fitness</span>
+                                <h3><a href="blog_details.html">Your Antibiotic One Day To 10 Day Options</a></h3>
                             </div>
                         </div>
                     </div>
@@ -180,7 +129,7 @@
             </div>
         </div>
     </section>
-    <!-- Traning categories End-->
+    <!-- Blog Area End -->
     <!--? video_start -->
     <div class="video-area section-bg2 d-flex align-items-center"  data-background="assets/img/gallery/video-bg.png">
         <div class="container">
@@ -197,7 +146,7 @@
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8">
-                    <div class="single-services mb-40">
+                    <div class="single-services mb-40 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
                         <div class="features-icon">
                             <img src="assets/img/icon/icon1.svg" alt="">
                         </div>
@@ -208,7 +157,7 @@
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
-                    <div class="single-services mb-40">
+                    <div class="single-services mb-40 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
                         <div class="features-icon">
                             <img src="assets/img/icon/icon2.svg" alt="">
                         </div>
@@ -220,14 +169,15 @@
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
-                    <div class="single-services mb-40">
+                    <div class="single-services mb-40 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".4s">
                         <div class="features-icon">
                             <img src="assets/img/icon/icon3.svg" alt="">
                         </div>
                         <div class="features-caption">
                             <h3>Email</h3>
-                            <p>tuitionstonight@gmail.com</p>
+                            <p>TuitionsTonight@gmail.com</p>
                             <p>tutifyy@gmail.com</p>
+                            
                         </div>
                     </div>
                 </div>
