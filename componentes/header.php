@@ -20,7 +20,7 @@
                     <div class="menu-wrapper d-flex align-items-center justify-content-between">
                         <!-- Logo -->
                         <div class="logo">
-                            <a href="index.html"><img src="img/TT.png" alt=""></a>
+                            <a href="index.php"><img src="img/TT.png" alt=""></a>
                         </div>  
                         <!-- Main-menu -->
                         <div class="main-menu f-right d-none d-lg-block">
@@ -28,7 +28,7 @@
                                 <ul id="navigation">
                                     <li><a href="index.php">HOME</a></li>
                                     <li><a href="about.php">SOBRE NOSOTROS</a></li>
-                                    <li><a href="<courses.php">CURSOS</a></li>
+                                    <li><a href="courses.php">CURSOS</a></li>
                                     <li><a href="pricing.php">MEMBRESIAS</a></li>
                                     <li><a href="gallery.php">FOTOS</a></li>
                                     <li><a href="blog.php">BLOG</a>

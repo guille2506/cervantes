@@ -60,7 +60,7 @@
                         <div class="single-footer-caption mb-50 text-center">
                             <!-- logo -->
                             <div class="footer-logo wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-                                <a href="index.html"><img src="img/TT.png" alt=""></a>
+                                <a href="index.php"><img src="img/TT.png" alt=""></a>
                             </div>
                             <!-- Menu -->
                             <!-- Header Start -->
@@ -71,7 +71,7 @@
                                         <div class="main-menu main-menu2 text-center">
                                             <nav>
                                                 <ul>
-                                                    <li><a href="index.html">Home</a></li>
+                                                    <li><a href="index.html">casa</a></li>
                                                     <li><a href="about.html">About</a></li>
                                                     <li><a href="courses.html">Courses</a></li>
                                                     <li><a href="pricing.html">Pricing</a></li>
