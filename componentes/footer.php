@@ -6,9 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-<footer>
-    <!-- ? services-area -->
-    <section class="services-area">
+  <!-- ? services-area -->
+  <section class="services-area">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8">
@@ -17,8 +16,8 @@
                             <img src="assets/img/icon/icon1.svg" alt="">
                         </div>
                         <div class="features-caption">
-                            <h3>Location</h3>
-                            <p>You’ll look at graphs and charts in Task One, how to approach </p>
+                            <h3>Ubicacion</h3>
+                            <p>Encuentranos en... </p>
                         </div>
                     </div>
                 </div>
@@ -28,9 +27,9 @@
                             <img src="assets/img/icon/icon2.svg" alt="">
                         </div>
                         <div class="features-caption">
-                            <h3>Phone</h3>
-                            <p>(90) 277 278 2566</p>
-                            <p>  (78) 267 256 2578</p>
+                            <h3>Telefono</h3>
+                            <p>2641231234</p>
+                            <p>2644564567</p>
                         </div>
                     </div>
                 </div>
@@ -40,9 +39,9 @@
                             <img src="assets/img/icon/icon3.svg" alt="">
                         </div>
                         <div class="features-caption">
-                            <h3>Email</h3>
-                            <p>TuitionsTonight@gmail.com</p>
-                            <p>tutifyy@gmail.com</p>
+                            <h3>Gmail</h3>
+                            <p>Kratosgymss@gmail.com</p>
+                            <p>Kratoscontratagym@gmail.com</p>
                         </div>
                     </div>
                 </div>
@@ -50,6 +49,7 @@
         </div>
     </section>
 </main>
+<footer>
     <!--? Footer Start-->
     <div class="footer-area black-bg">
         <div class="container">
@@ -60,7 +60,7 @@
                         <div class="single-footer-caption mb-50 text-center">
                             <!-- logo -->
                             <div class="footer-logo wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-                                <a href="index.php"><img src="img/TT.png" alt=""></a>
+                                <a href="index.html"><img src="img/TT.png" alt=""></a>
                             </div>
                             <!-- Menu -->
                             <!-- Header Start -->
@@ -71,12 +71,12 @@
                                         <div class="main-menu main-menu2 text-center">
                                             <nav>
                                                 <ul>
-                                                    <li><a href="index.html">casa</a></li>
-                                                    <li><a href="about.html">About</a></li>
-                                                    <li><a href="courses.html">Courses</a></li>
-                                                    <li><a href="pricing.html">Pricing</a></li>
-                                                    <li><a href="gallery.html">Gallery</a></li>
-                                                    <li><a href="contact.html">Contact</a></li>
+                                                    <li><a href="index.html">HOME</a></li>
+                                                    <li><a href="about.html">SOBRE NOSOTROS</a></li>
+                                                    <li><a href="courses.html">CURSOS</a></li>
+                                                    <li><a href="pricing.html">MEMBRESIAS</a></li>
+                                                    <li><a href="gallery.html">FOTOS</a></li>
+                                                    <li><a href="blog.html">BLOG</a>
                                                 </ul>
                                             </nav>
                                         </div>   

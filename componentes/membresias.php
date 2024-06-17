@@ -6,8 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- Courses area start -->
-    <section class="pricing-area section-padding40 fix">
+       <!-- Courses area start -->
+       <section class="pricing-area section-padding40 fix">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
@@ -24,14 +24,14 @@
                                 <img src="assets/img/icon/price.svg" alt="">
                             </div>
                             <div class="properties__caption">
-                                <span class="month">6 month</span>
-                                <p class="mb-25">$30/m  <span>(Single class)</span></p>
+                                <span class="month">1 MES</span>
+                                <p class="mb-25">$10.000<span>(Single class)</span></p>
                                 <div class="single-features">
                                     <div class="features-icon">
                                         <img src="assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
-                                        <p>Free riding </p>
+                                        <p>Guia gratuita </p>
                                     </div>
                                 </div>
                                 <div class="single-features">
@@ -39,7 +39,7 @@
                                         <img src="assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
-                                        <p>Unlimited equipments</p>
+                                        <p>Equipos ilimitados</p>
                                     </div>
                                 </div>
                                 <div class="single-features">
@@ -47,7 +47,7 @@
                                         <img src="assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
-                                        <p>Personal trainer</p>
+                                        <p>Personal Trainer </p>
                                     </div>
                                 </div>
                                 <div class="single-features">
@@ -55,7 +55,7 @@
                                         <img src="assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
-                                        <p>Weight losing classes</p>
+                                        <p>Clases para bajar grasa</p>
                                     </div>
                                 </div>
                                 <div class="single-features mb-20">
@@ -63,10 +63,10 @@
                                         <img src="assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
-                                        <p>Month to mouth</p>
+                                        <p>Mes a Mes</p>
                                     </div>
                                 </div>
-                                <a href="#" class="border-btn border-btn2">Join Now</a>
+                                <a href="#" class="border-btn border-btn2">Unete Ahora!</a>
                             </div>
                         </div>
                     </div>
@@ -78,14 +78,14 @@
                                 <img src="assets/img/icon/price.svg" alt="">
                             </div>
                             <div class="properties__caption">
-                                <span class="month">6 month</span>
-                                <p class="mb-25">$30/m  <span>(Single class)</span></p>
+                                <span class="month">3 MESES</span>
+                                <p class="mb-25">$25.500  <span>(Single class)</span></p>
                                 <div class="single-features">
                                     <div class="features-icon">
                                         <img src="assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
-                                        <p>Free riding </p>
+                                        <p>Guia gratuita</p>
                                     </div>
                                 </div>
                                 <div class="single-features">
@@ -93,7 +93,7 @@
                                         <img src="assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
-                                        <p>Unlimited equipments</p>
+                                        <p>Equipos ilimitados</p>
                                     </div>
                                 </div>
                                 <div class="single-features">
@@ -109,7 +109,7 @@
                                         <img src="assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
-                                        <p>Weight losing classes</p>
+                                        <p>Clase para bajar grasa</p>
                                     </div>
                                 </div>
                                 <div class="single-features mb-20">
@@ -117,10 +117,10 @@
                                         <img src="assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
-                                        <p>Month to mouth</p>
+                                        <p>Rutina personalizada para estos 3 meses</p>
                                     </div>
                                 </div>
-                                <a href="#" class="border-btn border-btn2">Join Now</a>
+                                <a href="#" class="border-btn border-btn2">Unete Ahora!</a>
                             </div>
                         </div>
                     </div>
@@ -132,14 +132,14 @@
                                 <img src="assets/img/icon/price.svg" alt="">
                             </div>
                             <div class="properties__caption">
-                                <span class="month">6 month</span>
-                                <p class="mb-25">$30/m  <span>(Single class)</span></p>
+                                <span class="month">6 MESES</span>
+                                <p class="mb-25">$51.000  <span>(Single class)</span></p>
                                 <div class="single-features">
                                     <div class="features-icon">
                                         <img src="assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
-                                        <p>Free riding </p>
+                                        <p>Guia gratuita </p>
                                     </div>
                                 </div>
                                 <div class="single-features">
@@ -147,7 +147,7 @@
                                         <img src="assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
-                                        <p>Unlimited equipments</p>
+                                        <p>Equipos ilimitados</p>
                                     </div>
                                 </div>
                                 <div class="single-features">
@@ -163,7 +163,7 @@
                                         <img src="assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
-                                        <p>Weight losing classes</p>
+                                        <p>Clases para bajar grasa</p>
                                     </div>
                                 </div>
                                 <div class="single-features mb-20">
@@ -171,10 +171,10 @@
                                         <img src="assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
-                                        <p>Month to mouth</p>
+                                        <p>Rutina personalizada mes a mes</p>
                                     </div>
                                 </div>
-                                <a href="#" class="border-btn border-btn2">Join Now</a>
+                                <a href="#" class="border-btn border-btn2">Unete Ahora!</a>
                             </div>
                         </div>
                     </div>

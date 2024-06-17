@@ -140,7 +140,7 @@
                         <div class="gallery-img big-img" style="background-image: url(assets/img/gallery/gallery1.png);"></div>
                         <div class="overlay">
                             <div class="overlay-content">
-                                <h3>Muscle gaining </h3>
+                                <h3>ganancias musculares </h3>
                                 <a href="gallery.html"><i class="ti-plus"></i></a>
                             </div>
                         </div>
@@ -151,7 +151,7 @@
                         <div class="gallery-img big-img" style="background-image: url(assets/img/gallery/gallery2.png);"></div>
                         <div class="overlay">
                             <div class="overlay-content">
-                                <h3>Muscle gaining </h3>
+                                <h3>ganancias musculares </h3>
                                 <a href="gallery.html"><i class="ti-plus"></i></a>
                             </div>
                         </div>
@@ -162,7 +162,7 @@
                         <div class="gallery-img big-img" style="background-image: url(assets/img/gallery/gallery3.png);"></div>
                         <div class="overlay">
                             <div class="overlay-content">
-                                <h3>Muscle gaining </h3>
+                                <h3>ganancias musculares </h3>
                                 <a href="gallery.html"><i class="ti-plus"></i></a>
                             </div>
                         </div>
@@ -173,7 +173,7 @@
                         <div class="gallery-img big-img" style="background-image: url(assets/img/gallery/gallery4.png);"></div>
                         <div class="overlay">
                             <div class="overlay-content">
-                                <h3>Muscle gaining </h3>
+                                <h3>ganancias musculares </h3>
                                 <a href="gallery.html"><i class="ti-plus"></i></a>
                             </div>
                         </div>
@@ -184,7 +184,7 @@
                         <div class="gallery-img big-img" style="background-image: url(assets/img/gallery/gallery5.png);"></div>
                         <div class="overlay">
                             <div class="overlay-content">
-                                <h3>Muscle gaining </h3>
+                                <h3>ganancias musculares </h3>
                                 <a href="gallery.html"><i class="ti-plus"></i></a>
                             </div>
                         </div>
@@ -195,7 +195,7 @@
                         <div class="gallery-img big-img" style="background-image: url(assets/img/gallery/gallery6.png);"></div>
                         <div class="overlay">
                             <div class="overlay-content">
-                                <h3>Muscle gaining </h3>
+                                <h3>ganancias musculares </h3>
                                 <a href="gallery.html"><i class="ti-plus"></i></a>
                             </div>
                         </div>
@@ -209,14 +209,14 @@
 
     <?php include ('componentes/about.php'); ?>
 
-    <!--? Blog Area Start -->   
+    <!--? Blog Area Start -->
     <section class="home-blog-area pt-10 pb-50">
         <div class="container">
             <!-- Section Tittle -->
             <div class="row justify-content-center">
                 <div class="col-lg-7 col-md-9 col-sm-10">
                     <div class="section-tittle text-center mb-100 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
-                        <h2>From Blog</h2>
+                        <h2>BLOG</h2>
                     </div>
                 </div>
             </div>
@@ -228,8 +228,8 @@
                                 <img src="assets/img/gallery/blog1.png" alt="">
                             </div>
                             <div class="blog-cap">
-                                <span>Gym & Fitness</span>
-                                <h3><a href="blog_details.html">Your Antibiotic One Day To 10 Day Options</a></h3>
+                                <span>Tom</span>
+                                <h3><a>-No se trata de ser el mejor, sino de ser mejor que ayer. Cada pequeño progreso es un paso hacia tus metas.</a></h3>
                             </div>
                         </div>
                     </div>
@@ -241,8 +241,8 @@
                                 <img src="assets/img/gallery/blog2.png" alt="">
                             </div>
                             <div class="blog-cap">
-                                <span>Gym & Fitness</span>
-                                <h3><a href="blog_details.html">Your Antibiotic One Day To 10 Day Options</a></h3>
+                                <span>Karolina</span>
+                                <h3><a>-La fuerza no proviene de lo que puedes hacer, sino de superar las cosas que una vez pensaste que no podías.</a></h3>
                             </div>
                         </div>
                     </div>
