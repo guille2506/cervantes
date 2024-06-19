@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<?php include ('componentes/header.php'); ?>
+<?php include ('componentes/header-usuario.php'); ?>
 
 <main>
     <!--? Hero Start -->

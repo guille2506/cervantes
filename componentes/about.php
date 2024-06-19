@@ -6,12 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-<!--? About Area-2 Start -->
 <section class="about-area2 fix pb-padding pt-50 pb-80">
         <div class="support-wrapper align-items-center">
-            <div class="right-content2">
+            <div class="right-content2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s" >
                 <!-- img -->
-                <div class="right-img wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+                <div class="right-img">
                     <img src="assets/img/gallery/about.png" alt="">
                 </div>
             </div>
@@ -19,17 +18,17 @@
                 <!-- section tittle -->
                 <div class="section-tittle2 mb-20 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
                     <div class="front-text">
-                        <h2 class="">Sombre mi</h2>
-                        <p>Me llamo Tom y soy un apasionado del fitness con 20 años de experiencia en el campo. 
-                            Mi objetivo es ayudarte a alcanzar tus metas de salud y bienestar a través de entrenamientos personalizados y un ambiente motivador.</p>
-                        <p class="mb-40">En Kratos GYM, creemos en el poder de la constancia y el esfuerzo.
-                            ¡Únete a nosotros y transforma tu vida, haremos que cada entrenamiento cuente.</p>
-                        <a href="courses.html" class="border-btn">Mis cursos</a>
+                        <h2 class="">About Me</h2>
+                        <p>You’ll look at graphs and charts in Task One, how to approach the task and the language needed 
+                            for a successful answer. You’ll examine Task Two questions and learn how to plan, write and 
+                        check academic essays.</p>
+                        <p class="mb-40">Task One, how to approach the task and the language needed for a successful answer. You’ll 
+                        examine Task Two questions and learn how to plan, write and check academic essays.</p>
+                        <a href="courses.html" class="border-btn">My Courses</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- About Area End -->
 </body>
 </html>

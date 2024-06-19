@@ -1,21 +1,4 @@
-<?php
-if (isset($_POST ["submit"])){
-
-    $username = $_POST['user'];
-    $password = $_POST['pass'];
-
-    if($username == 'admin' && $password == "password"){
-        header("Location: Billing.php");
-    }
-    else{
-        echo "Username or Password is incorrect!";
-    }
-
-}
-
-
-?>
-
+<?php include("config.php");?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -118,12 +101,18 @@ if (isset($_POST ["submit"])){
     <div class="login-box">
       <img src="img/TT.png" class="avatar" alt="Avatar Image">
       <h1>Inicio de sesion</h1>
-      <form>
-        <label for="username">Nombre</label>
-        <input type="text" placeholder="Enter Username">
-        <label for="password">Contraseña</label>
-        <input type="password" placeholder="Enter Password">
-        <input type="submit" value="Inicia sesion">
+      <form action="login.php" method="POST">
+      <div class="form-group">
+            <input type="text" name="usuario" clas="form-control" placeholder="Ingrese usuario">
+      </div>
+
+      <div class="form-group">
+            <input type="text" name="clave" clas="form-control" placeholder="Ingrese clave">
+      </div>
+
+        <input type="submit" name="inicio" value="Iniciar Sesion">  
+
+
         <a href="#">Perdiste tu contraseña?</a><br>
         <a href="#">No tienes una cuenta?</a>
       </form>

@@ -34,7 +34,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="hero-cap hero-cap2 pt-70">
-                            <h2>Galería</h2>
+                            <h2>Gallery</h2>
                         </div>
                     </div>
                 </div>
@@ -51,7 +51,7 @@
                         <div class="gallery-img big-img" style="background-image: url(assets/img/gallery/gallery1.png);"></div>
                         <div class="overlay">
                             <div class="overlay-content">
-                                <h3>ganancias musculares </h3>
+                                <h3>Muscle gaining </h3>
                                 <a href="gallery.html"><i class="ti-plus"></i></a>
                             </div>
                         </div>
@@ -62,7 +62,7 @@
                         <div class="gallery-img big-img" style="background-image: url(assets/img/gallery/gallery2.png);"></div>
                         <div class="overlay">
                             <div class="overlay-content">
-                                <h3>ganancias musculares </h3>
+                                <h3>Muscle gaining </h3>
                                 <a href="gallery.html"><i class="ti-plus"></i></a>
                             </div>
                         </div>
@@ -73,7 +73,7 @@
                         <div class="gallery-img big-img" style="background-image: url(assets/img/gallery/gallery3.png);"></div>
                         <div class="overlay">
                             <div class="overlay-content">
-                                <h3>ganancias musculares </h3>
+                                <h3>Muscle gaining </h3>
                                 <a href="gallery.html"><i class="ti-plus"></i></a>
                             </div>
                         </div>
@@ -84,7 +84,7 @@
                         <div class="gallery-img big-img" style="background-image: url(assets/img/gallery/gallery4.png);"></div>
                         <div class="overlay">
                             <div class="overlay-content">
-                                <h3>ganancias musculares </h3>
+                                <h3>Muscle gaining </h3>
                                 <a href="gallery.html"><i class="ti-plus"></i></a>
                             </div>
                         </div>
@@ -95,7 +95,7 @@
                         <div class="gallery-img big-img" style="background-image: url(assets/img/gallery/gallery5.png);"></div>
                         <div class="overlay">
                             <div class="overlay-content">
-                                <h3>ganancias musculares </h3>
+                                <h3>Muscle gaining </h3>
                                 <a href="gallery.html"><i class="ti-plus"></i></a>
                             </div>
                         </div>
@@ -106,7 +106,7 @@
                         <div class="gallery-img big-img" style="background-image: url(assets/img/gallery/gallery6.png);"></div>
                         <div class="overlay">
                             <div class="overlay-content">
-                                <h3>ganancias musculares </h3>
+                                <h3>Muscle gaining </h3>
                                 <a href="gallery.html"><i class="ti-plus"></i></a>
                             </div>
                         </div>

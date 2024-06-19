@@ -24,63 +24,9 @@
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body class="black-bg">
-    <!-- ? Preloader Start -->
-    <div id="preloader-active">
-        <div class="preloader d-flex align-items-center justify-content-center">
-            <div class="preloader-inner position-relative">
-                <div class="preloader-circle"></div>
-                <div class="preloader-img pere-text">
-                    <img src="img/TT.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Preloader Start -->
-    <header>
-        <!-- Header Start -->
-        <div class="header-area header-transparent">
-            <div class="main-header header-sticky">
-                <div class="container-fluid">
-                    <div class="menu-wrapper d-flex align-items-center justify-content-between">
-                        <!-- Logo -->
-                        <div class="logo">
-                            <a href="index.php"><img src="img/TT.png" alt=""></a>
-                        </div>
-                        <!-- Main-menu -->
-                        <div class="main-menu f-right d-none d-lg-block">
-                            <nav>
-                                <ul id="navigation">
-                                    <li><a href="index.php">HOME</a></li>
-                                    <li><a href="about.php">SOBRE NOSOTROS</a></li>
-                                    <li><a href="courses.php">CURSOS</a></li>
-                                    <li><a href="pricing.php">MEMBRESIAS</a></li>
-                                    <li><a href="gallery.php">FOTOS</a></li>
-                                    <li><a href="blog.php">BLOG</a>
-                                        <ul class="submenu">
-                                            <li><a href="blog.php">Blog</a></li>
-                                            <li><a href="blog_details.php">Blog Details</a></li>
-                                            <li><a href="elements.php">Elementos</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact.php">Contacto</a></li>
-                                </ul>
-                            </nav>
-                        </div>          
-                        <!-- Header-btn -->
-                        <div class="header-btns d-none d-lg-block f-right">
-                           <a href="admin-login.php" class="btn">INICIAR SESION</a>
-                       </div>
-                       <!-- Mobile Menu -->
-                       <div class="col-12">
-                        <div class="mobile_menu d-block d-lg-none"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Header End -->
-</header>
+
+<?php include ('componentes/header.php'); ?>
+
 <main>
     <!--? Hero Start -->
     <div class="slider-area2">
@@ -89,7 +35,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="hero-cap hero-cap2 pt-70">
-                            <h2>CURSOS</h2>
+                            <h2>Courses</h2>
                         </div>
                     </div>
                 </div>
@@ -103,7 +49,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section-tittle text-center mb-55">
-                        <h2 >ENTRENAMIENTOS DISPONIBLES</h2>
+                        <h2>What I Offer</h2>
                     </div>
                 </div>
             </div>
@@ -114,8 +60,8 @@
                             <img src="assets/img/gallery/team1.png" alt="">
                         </div>
                         <div class="cat-cap">
-                            <h5><a href="services.html">Construccion de cuerpo</a></h5>
-                            <p>Reconstrue tu cuerpo completamente con nuestros Instructores y maquinas.</p>
+                            <h5><a href="services.html">Body Building</a></h5>
+                            <p>You’ll look at graphs and charts in Task One, how to approach the task </p>
                         </div>
                     </div>
                 </div>
@@ -125,8 +71,8 @@
                             <img src="assets/img/gallery/team2.png" alt="">
                         </div>
                         <div class="cat-cap">
-                            <h5><a href="services.html">Ganancia Muscular</a></h5>
-                            <p>Gana masa muscular, con entrenamientos pesados e instrucciones claves.</p>
+                            <h5><a href="services.html">Muscle Gain</a></h5>
+                            <p>You’ll look at graphs and charts in Task One, how to approach the task </p>
                         </div>
                     </div>
                 </div>
@@ -136,8 +82,8 @@
                             <img src="assets/img/gallery/team3.png" alt="">
                         </div>
                         <div class="cat-cap">
-                            <h5><a href="services.html">Perdida de peso</a></h5>
-                            <p>Circuitos de altos rendimiento ideal para deficit calorico y ganancia muscular.</p>
+                            <h5><a href="services.html">Weight Loss</a></h5>
+                            <p>You’ll look at graphs and charts in Task One, how to approach the task </p>
                         </div>
                     </div>
                 </div>
@@ -156,8 +102,8 @@
                             <div class="topic-content-box">
                                 <div class="topic-content">
                                     <h3>Personal traning</h3>
-                                    <p>Entrenamiento personalizado, rutinas que se adapten a tu cuerpo<br>para lograr el objetivo deseado.</p>
-                                    <a href="courses.html" class="border-btn">Ver cursos</a>
+                                    <p>You’ll look at graphs and charts in Task One, how to approach the task and <br> the language needed for a successful answer.</p>
+                                    <a href="courses.html" class="border-btn">View Courses</a>
                                 </div>
                             </div>
                         </div>
@@ -170,8 +116,8 @@
                             <div class="topic-content-box">
                                 <div class="topic-content">
                                     <h3>Group traning</h3>
-                                    <p>Entrenamientos en grupos de alto rendimiento y<br>resultados y logros en equipos.</p>
-                                    <a href="courses.html" class="btn">Ver cursos</a>
+                                    <p>You’ll look at graphs and charts in Task One, how to approach the task and <br> the language needed for a successful answer.</p>
+                                    <a href="courses.html" class="btn">View Courses</a>
                                 </div>
                             </div>
                         </div>
@@ -184,8 +130,8 @@
     <?php include ('componentes/video.php') ?>
     <?php include ('componentes/footer.php') ?>
 
- <!-- Scroll Up -->
- <div id="back-top" >
+  <!-- Scroll Up -->
+  <div id="back-top" >
     <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
 </div>
 

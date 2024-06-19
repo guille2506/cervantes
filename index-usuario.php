@@ -1,3 +1,5 @@
+<?php include("config.php");
+session_start();?>
 <!doctype html>
 <html class="no-js" lang="zxx">
 <head>
@@ -24,11 +26,9 @@
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<?php include ('componentes/header.php'); ?>
+<?php include ('componentes/header-usuario.php'); ?>
 
-<main>
-    <!--? slider Area Start-->
-    <div class="slider-area position-relative">
+<div class="slider-area position-relative">
         <div class="slider-active">
             <!-- Single Slider -->
             <div class="single-slider slider-height d-flex align-items-center">
@@ -36,9 +36,8 @@
                     <div class="row">
                         <div class="col-xl-9 col-lg-9 col-md-10">
                             <div class="hero__caption">
-                                <span data-animation="fadeInLeft" data-delay="0.1s">ESCULPI TU CUERPO GRIEGO</span>
-                                <h1 data-animation="fadeInLeft" data-delay="0.4s">KRATOS GYM</h1>
-                                <a href="courses.html" class="border-btn hero-btn" data-animation="fadeInLeft" data-delay="0.8s">Mis cursos</a>
+                                <span data-animation="fadeInLeft" data-delay="0.1s">BIENBENIDO</span>
+                               <h1 data-animation="fadeInLeft" data-delay="0.4s"> <?php echo  $_SESSION['usuario']?></h1>   
                             </div>
                         </div>
                     </div>
@@ -46,49 +45,8 @@
             </div>
         </div>
     </div>
-    <!-- slider Area End-->
-    <!-- Traning categories Start -->
-    <section class="traning-categories black-bg">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xl-6 col-lg-6">
-                    <div class="single-topic text-center mb-30">
-                        <div class="topic-img">
-                            <img src="assets/img/gallery/cat1.png" alt="">
-                            <div class="topic-content-box">
-                                <div class="topic-content">
-                                    <h3>Personal traning</h3>
-                                    <p>Entrenamiento personalizado, rutinas que se adapten a tu cuerpo<br>para lograr el objetivo deseado.</p>
-                                    <a href="courses.html" class="border-btn">Ver cursos</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-6">
-                    <div class="single-topic text-center mb-30">
-                        <div class="topic-img">
-                            <img src="assets/img/gallery/cat2.png" alt="">
-                            <div class="topic-content-box">
-                                <div class="topic-content">
-                                    <h3>Group traning</h3>
-                                    <p>Entrenamientos en grupos de alto rendimiento y<br>resultados y logros en equipos.</p>
-                                    <a href="courses.html" class="btn">Ver cursos</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <?php include ('componentes/categorias.php'); ?>
-    <?php include ('componentes/membresias.php'); ?>
-    <?php include ('componentes/about.php'); ?>
-    <?php include ('componentes/video.php') ?>
-    
 
-<?php include('componentes/footer.php'); ?>
+<main>
 
   <!-- Scroll Up -->
   <div id="back-top" >

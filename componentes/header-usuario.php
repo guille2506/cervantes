@@ -26,20 +26,17 @@
                         <div class="main-menu f-right d-none d-lg-block">
                             <nav>
                                 <ul id="navigation">
-                                    <li><a href="index.php">Casa</a></li>
-                                    <li><a href="about.php">SOBRE NOSOTROS</a></li>
+                                    <li><a href="index-usuario.php">PERFIL</a></li>
+                                    <li><a href="about.php">TURNOS</a></li>
                                     <li><a href="courses.php">CURSOS</a></li>
-                                    <li><a href="gallery.php">FOTOS</a></li>
+                                    <li><a href="pricing.php">MEMBRESIAS</a></li>
                                     </li>
                                 </ul>
                             </nav>
                         </div>          
                         <!-- Header-btn -->
                         <div class="header-btns d-none d-lg-block f-right">
-                           <a href="admin-login.php" class="btn">INICIAR SESION</a>
-                       </div>
-                       <div class="header-btns d-none d-lg-block f-right">
-                           <a href="crear-cuenta.php" class="btn">Crear Cuenta</a>
+                           <a href="index.php" class="btn">CERRAR SESION</a>
                        </div>
                        <!-- Mobile Menu -->
                        <div class="col-12">

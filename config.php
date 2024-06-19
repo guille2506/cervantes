@@ -1,10 +1,16 @@
 <?php
 
-define('DB_SERVER','localhost');
-define('DB_USERNAME','root');
-define('DB_PASSWORD','');
-define('DB_NAME','gym');
+$mysql_host = "localhost"; 
+$mysql_user = "root"; 
+$mysql_pass = ""; 
+$mysql_dbname = "kratos_gym"; 
 
-$connection  = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_NAME);
+$conn = mysqli_connect($mysql_host,$mysql_user,$mysql_pass,$mysql_dbname);
+    if (!$conn){
+        echo "Error: No se pudo conectar a MySQL.";
+        echo "error: " . mysqli_connect_error();
+        exit;
+    }
+
 
 ?>

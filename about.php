@@ -24,62 +24,8 @@
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body class="black-bg">
-    <!-- ? Preloader Start -->
-    <div id="preloader-active">
-        <div class="preloader d-flex align-items-center justify-content-center">
-            <div class="preloader-inner position-relative">
-                <div class="preloader-circle"></div>
-                <div class="preloader-img pere-text">
-                    <img src="img/TT.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Preloader Start -->
-    <header>
-        <!-- Header Start -->
-        <div class="header-area header-transparent">
-            <div class="main-header header-sticky">
-                <div class="container-fluid">
-                    <div class="menu-wrapper d-flex align-items-center justify-content-between">
-                        <!-- Logo -->
-                        <div class="logo">
-                            <a href="index.php"><img src="img/TT.png" alt=""></a>
-                        </div>
-                        <!-- Main-menu -->
-                        <div class="main-menu f-right d-none d-lg-block">
-                            <nav>
-                                <ul id="navigation">
-                                    <li><a href="index.php">HOME</a></li>
-                                    <li><a href="about.php">SOBRE NOSOTROS</a></li>
-                                    <li><a href="courses.php">CURSOS</a></li>
-                                    <li><a href="pricing.php">MEMBRESIAS</a></li>
-                                    <li><a href="gallery.php">FOTOS</a></li>
-                                    <li><a href="blog.php">BLOG</a>
-                                        <ul class="submenu">
-                                            <li><a href="blog.php">Blog</a></li>
-                                            <li><a href="blog_details.php">Blog Details</a></li>
-                                            <li><a href="elements.php">Elementos</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact.php">Contacto</a></li>
-                                </ul>
-                            </nav>
-                        </div>          
-                        <!-- Header-btn -->
-                        <div class="header-btns d-none d-lg-block f-right">
-                           <a href="admin-login.php" class="btn">INICIAR SESION</a>
-                       </div>
-                       <!-- Mobile Menu -->
-                       <div class="col-12">
-                        <div class="mobile_menu d-block d-lg-none"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Header End -->
+<?php include ('componentes/header.php'); ?>
+
 </header>
 <main>
     <!--? Hero Start -->
@@ -89,7 +35,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="hero-cap hero-cap2 pt-70">
-                            <h2>Sombre Nosotros</h2>
+                            <h2>About Me</h2>
                         </div>
                     </div>
                 </div>
@@ -107,8 +53,8 @@
                             <img src="assets/img/gallery/team1.png" alt="">
                         </div>
                         <div class="cat-cap">
-                            <h5><a href="services.html">Construccion de cuerpo</a></h5>
-                            <p>Reconstrue tu cuerpo completamente con nuestros Instructores y maquinas.</p>
+                            <h5><a href="services.html">Body Building</a></h5>
+                            <p>You’ll look at graphs and charts in Task One, how to approach the task </p>
                         </div>
                     </div>
                 </div>
@@ -118,8 +64,8 @@
                             <img src="assets/img/gallery/team2.png" alt="">
                         </div>
                         <div class="cat-cap">
-                            <h5><a href="services.html">Ganancia Muscular</a></h5>
-                            <p>Gana masa muscular, con entrenamientos pesados e instrucciones claves.</p>
+                            <h5><a href="services.html">Muscle Gain</a></h5>
+                            <p>You’ll look at graphs and charts in Task One, how to approach the task </p>
                         </div>
                     </div>
                 </div>
@@ -129,8 +75,8 @@
                             <img src="assets/img/gallery/team3.png" alt="">
                         </div>
                         <div class="cat-cap">
-                            <h5><a href="services.html">Perdida de peso</a></h5>
-                            <p>Circuitos de altos rendimiento ideal para deficit calorico y ganancia muscular.</p>
+                            <h5><a href="services.html">Weight Loss</a></h5>
+                            <p>You’ll look at graphs and charts in Task One, how to approach the task </p>
                         </div>
                     </div>
                 </div>
@@ -139,29 +85,8 @@
     </section>
     <!-- Services End -->
     <!--? About Area-2 Start -->
-    <section class="about-area2 fix pb-padding pt-50 pb-80">
-        <div class="support-wrapper align-items-center">
-            <div class="right-content2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s" >
-                <!-- img -->
-                <div class="right-img">
-                    <img src="assets/img/gallery/about.png" alt="">
-                </div>
-            </div>
-            <div class="left-content2">
-                <!-- section tittle -->
-                <div class="section-tittle2 mb-20 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                    <div class="front-text">
-                        <h2 class="">Sombre mi</h2>
-                        <p>Me llamo Tom y soy un apasionado del fitness con 20 años de experiencia en el campo. 
-                            Mi objetivo es ayudarte a alcanzar tus metas de salud y bienestar a través de entrenamientos personalizados y un ambiente motivador.</p>
-                        <p class="mb-40">En Kratos GYM, creemos en el poder de la constancia y el esfuerzo.
-                            ¡Únete a nosotros y transforma tu vida, haremos que cada entrenamiento cuente.</p>
-                        <a href="courses.html" class="border-btn">Mis cursos</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php include ('componentes/about.php'); ?>
+
     <!-- About Area End -->
     <!--? Blog Area Start -->
     <section class="home-blog-area pt-10 pb-50">
@@ -170,7 +95,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-7 col-md-9 col-sm-10">
                     <div class="section-tittle text-center mb-100 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
-                        <h2>BLOG</h2>
+                        <h2>From Blog</h2>
                     </div>
                 </div>
             </div>
@@ -182,8 +107,8 @@
                                 <img src="assets/img/gallery/blog1.png" alt="">
                             </div>
                             <div class="blog-cap">
-                                <span>Tom</span>
-                                <h3><a>-No se trata de ser el mejor, sino de ser mejor que ayer. Cada pequeño progreso es un paso hacia tus metas.</a></h3>
+                                <span>Gym & Fitness</span>
+                                <h3><a href="blog_details.html">Your Antibiotic One Day To 10 Day Options</a></h3>
                             </div>
                         </div>
                     </div>
@@ -195,8 +120,8 @@
                                 <img src="assets/img/gallery/blog2.png" alt="">
                             </div>
                             <div class="blog-cap">
-                                <span>Tom</span>
-                                <h3><a>-No se trata de ser el mejor, sino de ser mejor que ayer. Cada pequeño progreso es un paso hacia tus metas.</a></h3>
+                                <span>Gym & Fitness</span>
+                                <h3><a href="blog_details.html">Your Antibiotic One Day To 10 Day Options</a></h3>
                             </div>
                         </div>
                     </div>
@@ -226,8 +151,8 @@
                             <img src="assets/img/icon/icon1.svg" alt="">
                         </div>
                         <div class="features-caption">
-                            <h3>Ubicacion</h3>
-                            <p>Encuentranos en... </p>
+                            <h3>Location</h3>
+                            <p>You’ll look at graphs and charts in Task One, how to approach </p>
                         </div>
                     </div>
                 </div>
@@ -237,9 +162,9 @@
                             <img src="assets/img/icon/icon2.svg" alt="">
                         </div>
                         <div class="features-caption">
-                            <h3>Telefono</h3>
-                            <p>2641231234</p>
-                            <p>2644564567</p>
+                            <h3>Phone</h3>
+                            <p>(90) 277 278 2566</p>
+                            <p>  (78) 267 256 2578</p>
                         </div>
                     </div>
                 </div>
@@ -249,9 +174,9 @@
                             <img src="assets/img/icon/icon3.svg" alt="">
                         </div>
                         <div class="features-caption">
-                            <h3>Gmail</h3>
-                            <p>Kratosgymss@gmail.com</p>
-                            <p>Kratoscontratagym@gmail.com</p>
+                            <h3>Email</h3>
+                            <p>TuitionsTonight@gmail.com</p>
+                            <p>tutifyy@gmail.com</p>
                             
                         </div>
                     </div>
@@ -282,12 +207,12 @@
                                         <div class="main-menu main-menu2 text-center">
                                             <nav>
                                                 <ul>
-                                                    <li><a href="index.html">HOME</a></li>
-                                                    <li><a href="about.html">SOBRE NOSOTROS</a></li>
-                                                    <li><a href="courses.html">CURSOS</a></li>
-                                                    <li><a href="pricing.html">MEMBRESIAS</a></li>
-                                                    <li><a href="gallery.html">FOTOS</a></li>
-                                                    <li><a href="blog.html">BLOG</a>
+                                                    <li><a href="index.html">Home</a></li>
+                                                    <li><a href="about.html">About</a></li>
+                                                    <li><a href="courses.html">Courses</a></li>
+                                                    <li><a href="pricing.html">Pricing</a></li>
+                                                    <li><a href="gallery.html">Gallery</a></li>
+                                                    <li><a href="contact.html">Contact</a></li>
                                                 </ul>
                                             </nav>
                                         </div>   
